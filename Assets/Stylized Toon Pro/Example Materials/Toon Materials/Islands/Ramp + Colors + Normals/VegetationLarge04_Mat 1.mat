@@ -12,7 +12,7 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _OUTLINETYPE_NORMAL
+  - _OUTLINETYPE_POSITION
   - _OVERLAYMODE1_NONE
   - _OVERLAYMODE_NONE
   - _RIMSPLITCOLOR_USESECONDCOLOR
@@ -25,7 +25,7 @@ Material:
   - _USESCREENUVSWARP_ON
   m_InvalidKeywords:
   - _USEDIFFUSEWARP_ON
-  m_LightmapFlags: 2
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -172,13 +172,14 @@ Material:
     - _OutlineNoiseIntesity: 0.68
     - _OutlineNoiseScale: 10
     - _OutlineTextureStrength: 0
-    - _OutlineType: 0
+    - _OutlineType: 1
     - _OverlayMode: 0
     - _OverlayMode1: 0
     - _OverlayRotation: 0
     - _OverlayUVTilling: 0
     - _PaperTilling: 1
     - _Parallax: 0.02
+    - _QueueControl: -1
     - _QueueOffset: 0
     - _RampDiffuseTextureLoaded: 1
     - _ReceiveShadows: 1
@@ -225,7 +226,7 @@ Material:
     - _UseDiffuseWarp: 1
     - _UseDiffuseWarpAsOverlay: 0
     - _UseDynamicOutline: 1
-    - _UseEmission: 1
+    - _UseEmission: 0
     - _UseEnvironmentRefletion: 0
     - _UseHatchingConstantScale: 1
     - _UseLightRamp: 1
@@ -245,7 +246,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 0.7568628, g: 0.6509804, b: 0.5254902, a: 1}
+    - _Color: {r: 0.28930807, g: 0.104623936, b: 0.12176212, a: 1}
     - _EmissionColor: {r: 12.996038, g: 12.996038, b: 12.996038, a: 1}
     - _EmissiveColor: {r: 0, g: 0, b: 0, a: 0}
     - _HalftoneColor: {r: 0, g: 0, b: 0, a: 1}
@@ -256,6 +257,7 @@ Material:
     - _ShadowColor: {r: 0.22837543, g: 0, b: 1, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!114 &5189171868249697491
 MonoBehaviour:
   m_ObjectHideFlags: 11
