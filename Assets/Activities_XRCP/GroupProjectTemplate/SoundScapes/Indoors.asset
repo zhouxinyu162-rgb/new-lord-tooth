@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c77d71ca93abc34890ea7ee2528cc51, type: 3}
+  m_Name: Indoors
+  m_EditorClassIdentifier: 
+  name: Indoors
+  AmbientLoop: {fileID: 8300000, guid: 542251caf922f40a5bf68dccb601079a, type: 3}
+  FrequencyOfRandomSounds: 0.001
+  randomSoundDistance: 6
+  RandomShortSounds:
+  - {fileID: 8300000, guid: e1c2b8a705fdb404a8548a6d80e88a0d, type: 3}
+  - {fileID: 8300000, guid: fcf3c0a9a5b9f46ec9ddca85cd87048a, type: 3}
+  - {fileID: 8300000, guid: 55cc6e4d0d45c4da89146a0b4c5ed76d, type: 3}
+  - {fileID: 8300000, guid: cad505fa144864752a34dbe38b00e89f, type: 3}

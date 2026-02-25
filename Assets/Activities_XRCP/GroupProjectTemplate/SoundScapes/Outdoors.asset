@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c77d71ca93abc34890ea7ee2528cc51, type: 3}
+  m_Name: Outdoors
+  m_EditorClassIdentifier: 
+  name: Outdoors
+  AmbientLoop: {fileID: 8300000, guid: 5491a1fdae205495cabd33dec234defa, type: 3}
+  FrequencyOfRandomSounds: 0.001
+  randomSoundDistance: 5
+  RandomShortSounds:
+  - {fileID: 8300000, guid: 89e131b40e0cb4ddbb4e727b8e7c9ed0, type: 3}
+  - {fileID: 8300000, guid: 121a81e99724b4bf58441fcdd6de59f8, type: 3}
+  - {fileID: 8300000, guid: 5fe9ec3c18ddd4248addbef9e0339186, type: 3}
