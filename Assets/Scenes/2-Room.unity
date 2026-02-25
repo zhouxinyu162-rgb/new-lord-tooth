@@ -1390,6 +1390,15 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 751b434bd4fda45a38f2ebea1c0f65a9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1865085866}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 751b434bd4fda45a38f2ebea1c0f65a9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1865085869}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 751b434bd4fda45a38f2ebea1c0f65a9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1865085871}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 751b434bd4fda45a38f2ebea1c0f65a9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1865085872}
   m_SourcePrefab: {fileID: 100100000, guid: 751b434bd4fda45a38f2ebea1c0f65a9, type: 3}
 --- !u!1001 &1534046784
 PrefabInstance:
@@ -1714,7 +1723,7 @@ Rigidbody:
   m_ImplicitTensor: 1
   m_UseGravity: 1
   m_IsKinematic: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
 --- !u!65 &1865085868
@@ -1738,6 +1747,64 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 0.999999, z: 1}
   m_Center: {x: 0, y: 0.0000004838748, z: 8.66699e-15}
+--- !u!114 &1865085869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1865085864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0f09e5c60f26a5479f6e65028373f54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: teeth
+  haveGravity: 1
+  pointedColor: {r: 0, g: 0.57, b: 1, a: 1}
+  holdColor: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1865085871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1865085864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82767f1c76c7e47b4984b40514f3a788, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  head: {fileID: 0}
+  distanceFrom: {fileID: 0}
+  minDistance: 0.2
+  maxDistance: 1.5
+  minScale: 0.2
+  maxScale: 2
+  nearBigger: 1
+  smooth: 12
+--- !u!114 &1865085872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1865085864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d39bf1607a834747974f3d185d980ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stepMultiplier: 1.3
+  maxMultiplier: 6
+  scaleSmooth: 12
+  minThrowSpeed: 1
+  landSpeedThreshold: 0.5
+  minAirTime: 0.08
+  groundCheckDistance: 0.25
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!1 &1943267173
 GameObject:
   m_ObjectHideFlags: 0
