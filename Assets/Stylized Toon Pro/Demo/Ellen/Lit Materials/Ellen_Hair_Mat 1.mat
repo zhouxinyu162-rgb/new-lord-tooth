@@ -30,7 +30,7 @@ Material:
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
+  m_DoubleSidedGI: 1
   m_CustomRenderQueue: -1
   stringTagMap:
     RenderType: Opaque
@@ -123,6 +123,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _AdaptiveThicnkess: 0
+    - _AddPrecomputedVelocity: 0
     - _AdditionalLightsAmount: 1
     - _AdditionalLightsFaloff: 1
     - _AdditionalLightsIntesity: 1
@@ -138,7 +139,7 @@ Material:
     - _BumpScale: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
-    - _Cull: 2
+    - _Cull: 0
     - _Cutoff: 0
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
@@ -171,7 +172,7 @@ Material:
     - _RimSmoothness: 0.5
     - _RimSplitColor: 0
     - _RimThickness: 0.8
-    - _Smoothness: 0
+    - _Smoothness: 0.28
     - _SmoothnessMultiplier: 1
     - _SmoothnessTextureChannel: 0
     - _SpecularFaloff: 0
@@ -200,8 +201,8 @@ Material:
     - _numSteps: 4
     - _value: 0
     m_Colors:
-    - _BaseColor: {r: 0.4784314, g: 0.1137255, b: 0.121568635, a: 1}
-    - _Color: {r: 0.47843134, g: 0.11372546, b: 0.12156858, a: 1}
+    - _BaseColor: {r: 0.1137255, g: 0.23766051, b: 0.47843137, a: 1}
+    - _Color: {r: 0.11372546, g: 0.23766047, b: 0.47843128, a: 1}
     - _Color2: {r: 1, g: 0.45588237, b: 0.45588237, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _HighlightColor: {r: 0.8018868, g: 0.094562106, b: 0.21537162, a: 1}
