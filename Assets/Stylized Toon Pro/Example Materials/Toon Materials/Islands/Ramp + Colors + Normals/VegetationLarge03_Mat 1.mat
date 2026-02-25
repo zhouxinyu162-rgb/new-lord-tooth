@@ -192,6 +192,7 @@ Material:
     - _OverlayUVTilling: 0
     - _PaperTilling: 1
     - _Parallax: 0.02
+    - _QueueControl: -1
     - _QueueOffset: 0
     - _RampDiffuseTextureLoaded: 1
     - _ReceiveShadows: 1
@@ -269,3 +270,4 @@ Material:
     - _ShadowColor: {r: 0.22837543, g: 0, b: 1, a: 1}
     - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1
