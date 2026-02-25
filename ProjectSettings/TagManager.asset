@@ -4,15 +4,15 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - Anchor
+  - Key
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - interaction
   - Water
   - UI
-  - 
+  - wall
   - 
   - 
   - 
