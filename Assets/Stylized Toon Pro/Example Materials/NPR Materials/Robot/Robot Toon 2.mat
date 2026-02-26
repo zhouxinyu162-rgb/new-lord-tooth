@@ -127,8 +127,8 @@ Material:
     m_Floats:
     - _ASEOutlineWidth: 0
     - _AdaptiveThicnkess: 0
-    - _AdditionalLightsAmount: 1
-    - _AdditionalLightsFaloff: 1
+    - _AdditionalLightsAmount: 0
+    - _AdditionalLightsFaloff: 0
     - _AdditionalLightsIntesity: 1
     - _AdditionalLightsSmoothnessMultiplier: 1
     - _AlphaClip: 0
@@ -179,7 +179,7 @@ Material:
     - _OutlineType: 0
     - _OverlayMode: 2
     - _OverlayMode1: 0
-    - _OverlayRotation: 0
+    - _OverlayRotation: 180
     - _OverlayUVTilling: 4.6
     - _PaperTilling: 1
     - _Parallax: 0.005
@@ -209,7 +209,7 @@ Material:
     - _SrcBlendAlpha: 1
     - _StepHalftoneTexture: 0
     - _StepOffset: -0.058
-    - _Strength: 0
+    - _Strength: 1
     - _Surface: 0
     - _Thicnkess: 0.002
     - _UVAnimationSpeed: 0
