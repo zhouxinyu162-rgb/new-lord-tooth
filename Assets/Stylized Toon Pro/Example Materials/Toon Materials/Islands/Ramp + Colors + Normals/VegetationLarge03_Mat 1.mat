@@ -182,7 +182,7 @@ Material:
     - _NormalMapStrength: 0.4
     - _OcclusionStrength: 1
     - _OutlineDynamicSpeed: 0
-    - _OutlineNoiseIntesity: 0.68
+    - _OutlineNoiseIntesity: 0.18
     - _OutlineNoiseScale: 10
     - _OutlineTextureStrength: 0
     - _OutlineType: 0
@@ -259,7 +259,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 0.427451, g: 0.30980393, b: 0.6039216, a: 1}
+    - _Color: {r: 0.25943398, g: 0.70855063, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
     - _EmissiveColor: {r: 0, g: 0, b: 0, a: 0}
     - _HalftoneColor: {r: 0, g: 0, b: 0, a: 1}
