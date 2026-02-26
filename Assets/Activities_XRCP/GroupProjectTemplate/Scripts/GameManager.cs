@@ -92,19 +92,19 @@ public class GameManager : MonoBehaviour
     private void HandleBeginning()
     {
         //Maybe there's something specific you need to do in code here.
-        sceneLoader.GoToSceneAsync("0_StoryExampleScene");
+        sceneLoader.GoToSceneAsync("1-Room");
     }
 
     private void HandleMiddle()
     {
         //Maybe there's something specific you need to do in code here.
-        sceneLoader.GoToSceneAsync("1_StoryExampleScene");
+        sceneLoader.GoToSceneAsync("2-Room");
     }
 
     private void HandleEnd()
     {
         //Maybe there's something specific you need to do in code here.
-        sceneLoader.GoToSceneAsync("0_StoryExampleScene");
+        sceneLoader.GoToSceneAsync("3-Room");
     }
 
 

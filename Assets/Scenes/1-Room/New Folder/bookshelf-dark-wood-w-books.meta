@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scenes/1-Room/New Folder/bookshelf-dark-wood-w-books.meta
 guid: 428b4dadad52d4a78b4c44115accb6aa
+========
+guid: f9c07e029cc984b23a40d9994aab9471
+>>>>>>>> main:Assets/Scenes/1-Room/New Folder.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

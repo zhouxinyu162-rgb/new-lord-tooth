@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/sence22.unity.meta
 guid: 7da9f145145c643269b963fac1c04ce8
+========
+guid: 5124940e9e08d456a8eaf35941f33fd2
+>>>>>>>> main:Assets/sence1-livingroom.unity.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
