@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - Brush
+  - Anchor
   layers:
   - Default
   - TransparentFX
@@ -12,14 +13,14 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - brush
   - 
   - 
   - 
   - 
   - Interaction Layer Mask
   - 
-  - 
+  - stain
   - 
   - 
   - 
