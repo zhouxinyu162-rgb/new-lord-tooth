@@ -25,12 +25,11 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _OUTLINETYPE_NORMAL
+  - _OUTLINETYPE_POSITION
   - _OVERLAYMODE1_NONE
   - _OVERLAYMODE_NONE
   - _RIMSPLITCOLOR_USESECONDCOLOR
   - _USEADDITIONALLIGHTSDIFFUSE_ON
-  - _USEDYNAMICOUTLINE_ON
   - _USEHATCHINGCONSTANTSCALE_ON
   - _USELIGHTRAMP_DIFFUSERAMP
   - _USEOUTLINE_ON
@@ -134,9 +133,9 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AdaptiveThicnkess: 0.134
-    - _AdditionalLightsAmount: 1
-    - _AdditionalLightsFaloff: 1
+    - _AdaptiveThicnkess: 0.82
+    - _AdditionalLightsAmount: 0.32
+    - _AdditionalLightsFaloff: -0
     - _AdditionalLightsIntesity: 1
     - _AdditionalLightsSmoothnessMultiplier: 1
     - _AlphaClip: 0
@@ -182,16 +181,17 @@ Material:
     - _NormalMapStrength: 0.4
     - _OcclusionStrength: 1
     - _OutlineDynamicSpeed: 0
-    - _OutlineNoiseIntesity: 0.68
+    - _OutlineNoiseIntesity: 0.18
     - _OutlineNoiseScale: 10
-    - _OutlineTextureStrength: 0
-    - _OutlineType: 0
+    - _OutlineTextureStrength: 1
+    - _OutlineType: 1
     - _OverlayMode: 0
     - _OverlayMode1: 0
     - _OverlayRotation: 0
     - _OverlayUVTilling: 0
     - _PaperTilling: 1
     - _Parallax: 0.02
+    - _QueueControl: -1
     - _QueueOffset: 0
     - _RampDiffuseTextureLoaded: 1
     - _ReceiveShadows: 1
@@ -219,7 +219,7 @@ Material:
     - _StepOffset: -0.055
     - _Strength: 0
     - _Surface: 0
-    - _Thicnkess: 0.0205
+    - _Thicnkess: 0.0162
     - _UVAnimationSpeed: 0
     - _UVAnimationSpeedSpec: 0
     - _UVAnimationSpeedWarp: 0
@@ -237,7 +237,7 @@ Material:
     - _UseBacklight: 0
     - _UseDiffuseWarp: 1
     - _UseDiffuseWarpAsOverlay: 0
-    - _UseDynamicOutline: 1
+    - _UseDynamicOutline: 0
     - _UseEmission: 1
     - _UseEnvironmentRefletion: 0
     - _UseHatchingConstantScale: 1
@@ -258,7 +258,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 0.427451, g: 0.30980393, b: 0.6039216, a: 1}
+    - _Color: {r: 0, g: 0.26405114, b: 0.4339623, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
     - _EmissiveColor: {r: 0, g: 0, b: 0, a: 0}
     - _HalftoneColor: {r: 0, g: 0, b: 0, a: 1}
@@ -269,3 +269,4 @@ Material:
     - _ShadowColor: {r: 0.22837543, g: 0, b: 1, a: 1}
     - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1
